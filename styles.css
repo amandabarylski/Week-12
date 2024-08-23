@@ -1,0 +1,31 @@
+body {
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: darkred;
+    text-decoration: underline;
+    text-shadow: black 1px 1px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+form {
+    color: darkred;
+    text-shadow: black 0.5px 0.5px;
+}
+
+.card {
+    background-color: rgb(165, 42, 42, 20%);
+    color: rgb(1, 1, 103);
+}
+
+strong {
+    color: darkred;
+}
+
+.taken {
+    color: darkslategrey;
+    text-decoration: line-through;
+}
