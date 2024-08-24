@@ -14,6 +14,7 @@
     <!--I left all buttons styled with Bootstrap even though it doesn't fit the rest of the page's
     aesthetics perfectly. If I have time after working out the functionality with the JavaScript
     I will create custom styles for them instead.-->
+    <!--I went back and added extra classes to all buttons so that they would be easier to grab with the DOM.-->
     <form class="mx-1">
         <div class="row mb-3">
             <div class="col-md-8">
@@ -37,7 +38,7 @@
                 <textarea class="form-control" id="description"></textarea>
             </div>
             <div class="col-md-4">
-                <button type="button" class="btn btn-primary mt-4">Add Commission</button>
+                <button type="button" id="add-commission" class="btn btn-success mt-4">Add Commission</button>
             </div>
         </div>
     </form>
@@ -45,7 +46,7 @@
     <!--I wanted the commissions to display as cards, so after creating the container to hold all of them
     I made an example one to work on the HTML formatting and styling. To test how it looked with multiple
     commissions, I copied and pasted it a few times, then deleted the extras before commenting out this test.-->
-    <div id="commssion-board" class="container row row-cols-1 row-cols-md-3 g-2 mx-auto justify-content-center">
+    <div id="commission-board" class="container row row-cols-1 row-cols-md-3 g-2 mx-auto justify-content-center">
         <!-- <div class="col">
             <div class="card h-100">
                 <div class="card-header">
@@ -55,12 +56,13 @@
                     <h5 class="card-title">Risk Rating: <strong>5</strong></h4>
                     <p class="card-text">took over the town well and nobody can get close</p>
                     <div class="row">
-                        <button type="button" class="btn btn-success col-auto mx-auto">Available</button>
-                        <button type="button" class="btn btn-danger col-auto mx-auto">Delete</button>
+                        <button type="button" class="btn btn-success toggle-commission col-auto mx-auto">Available</button>
+                        <button type="button" class="btn btn-danger delete-commission col-auto mx-auto">Delete</button>
                     </div>
                 </div>
             </div>
         </div> -->
+
     </div>
 
 

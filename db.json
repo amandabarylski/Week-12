@@ -1,25 +1,25 @@
 {
-    "commissions": [
-        {
-            "id": "1",
-            "title": "Shadow Monster",
-            "risk": "5",
-            "description": "took over the town well and nobody can get close",
-            "taken": false
-        },
-        {
-            "id": "2",
-            "title": "Ghost",
-            "risk": "2",
-            "description": "broke some plates and keeps slamming doors",
-            "taken": false
-        },
-        {
-            "id": "3",
-            "title": "Bandits",
-            "risk": "3",
-            "description": "attacked my caravan on the road outside town",
-            "taken": true
-        }
-    ]
+  "commissions": [
+    {
+      "id": "1",
+      "title": "Shadow Monster",
+      "risk": "5",
+      "description": "took over the town well and nobody can get close",
+      "taken": false
+    },
+    {
+      "id": "2",
+      "title": "Ghost",
+      "risk": "2",
+      "description": "broke some plates and keeps slamming doors",
+      "taken": false
+    },
+    {
+      "id": "3",
+      "title": "Bandits",
+      "risk": "3",
+      "description": "attacked my caravan on the road outside town",
+      "taken": true
+    }
+  ]
 }
